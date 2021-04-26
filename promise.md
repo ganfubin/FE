@@ -11,6 +11,7 @@
 
 
 `promise.all 全部成功就reslove，或者有失败就reject`
+
 ```javascript
 export const promiseAll = (promiseArr) => {
   const  result = [];
