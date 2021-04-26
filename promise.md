@@ -1,9 +1,9 @@
- #promise的三种状态
+ # promise的三种状态
  1.pengding 初始状态
  2.fulfilled 操作成功
  3.rejected 操作失败
  
- #promise的状态一旦改变就不可逆
+ # promise的状态一旦改变就不可逆
  pengding 可转换为fulfilled
  pengding 可转换为rejected
 
