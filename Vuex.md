@@ -48,8 +48,6 @@ class Store{
                 }
             })
         })
-
-
     }
     get state(){
         return this.vm.state
@@ -136,10 +134,9 @@ class Store{
         this.actions = {}
         Object.keys(actions).forEach(actionName=>{
             this.actions[actionName] = (arg)=>{
-                actions[actionName](this,arg)
+                actions[actionName](this, arg)
             }
         })
-
     }
 
 
